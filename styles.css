@@ -19,6 +19,10 @@ body {
   margin-top: 20px;
 }
 
+.navbar-image {
+  cursor: default !important;
+}
+
 .landingBtn {
   background: #e97526 !important;
   border: 1px solid #e97526 !important;
@@ -139,6 +143,21 @@ body {
   border: 1px solid #eee !important;
 }
 
+.btn-form {
+  background: #e97526 !important;
+  border: none !important;
+  color: #fff !important;
+}
+
+.btn-form:focus {
+  box-shadow: #dad9d9 !important;
+}
+
+.form-control:focus {
+  box-shadow: 0px 0px 5px 1px #e48f56 !important;
+  border: 1px solid#e97526 !important;
+}
+
 @media (max-width: 992px) {
   .Ellipse {
     display: none;
@@ -148,5 +167,19 @@ body {
 @media (max-width: 768px) {
   .landingImg {
     display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .cardB {
+    margin-top: 3em;
+  }
+
+  .cardPair2 {
+    margin-top: 8em;
+  }
+
+  footer > .container > .row {
+    flex-direction: column-reverse;
   }
 }
